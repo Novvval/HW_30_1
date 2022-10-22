@@ -1,5 +1,4 @@
 from rest_framework import permissions
-
 from ads.models import User, Ad, Selection
 
 

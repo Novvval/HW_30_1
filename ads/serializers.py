@@ -39,3 +39,9 @@ class SelectionDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Selection
         fields = "__all__"
+
+class SelectionCreateOrUpdateSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Selection
+        fields = "__all__"
